@@ -1,0 +1,32 @@
+Q5 -  Responda objetivamente:
+
+(a) Dados dois arquivos, como saber se os ar-
+quivos tem o mesmo tamanho?
+
+(b) Na questão 4 a hipótese era de que o ar-
+quivo cabia todo em memória. E se n ̃ao
+coubesse?
+
+(c) Comente sobre a diferen ̧ca de eficiˆencia de
+juntar dois arquivos por intercala ̧c ̃ao e por
+loop aninhado (for ̧ca bruta).
+
+(d) Que estrutura de dados poderia ser usada,
+no caso do problema da contagem de
+ocorrˆencias, para ap ́os a contagem, esta-
+belecer rapidamente qual caractere tem o
+maior n ́umero de ocorrˆencia no arquivo?
+
+a - Para verificar se dois arquivos têm o mesmo tamanho, podemos usar as funções 
+fseek() e ftell() para obter o tamanho de cada arquivo e, em seguida, comparar os tamanhos. 
+
+b - Se não coubesse, apareceria um erro.
+
+c - A intercalação é muito mais eficiente que a força bruta.
+No loop aninhado, usa-se um loop para passar por todos os regitros
+do arquivo em questão com um segundo arquivo, escrevendo os registros
+iguais em um terceiro arquivo, o que pode ser ineficiente para 
+arquivos muito grandes. Já na intercalação, usa-se menos memória porque,
+com os arquivos já ordenados, 
+
+d - Podemos usar uma hash table
