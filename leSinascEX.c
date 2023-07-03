@@ -95,7 +95,7 @@ void processa2(struct DadosNascimento* dn){
             contPrem16++;
             }
         } else if (ano == 2017) {
-            if(dn->SEMAGESTAC < 39){
+            if(dn->SEMAGESTAC < 37){
             contPrem17++;
             }
         } else if (ano == 2018){
