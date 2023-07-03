@@ -75,23 +75,23 @@ void processa2(struct DadosNascimento* dn){
     separaData(dn->data_nasc, &dia, &mes, &ano);
     if(dn->CODMUNRES == 330455){
         if(ano == 2012){
-            if(dn->SEMAGESTAC < 39){
+            if(dn->SEMAGESTAC < 37){
             contPrem12++;
             }
         }else if (ano == 2013){
-            if(dn->SEMAGESTAC < 39){
+            if(dn->SEMAGESTAC < 37){
             contPrem13++;
             }
         } else if (ano == 2014){
-            if(dn->SEMAGESTAC < 39){
+            if(dn->SEMAGESTAC < 37){
             contPrem14++;
             }
         }else if (ano == 2015) {
-            if(dn->SEMAGESTAC < 39){
+            if(dn->SEMAGESTAC < 37){
             contPrem15++;
             }
         } else if (ano == 2016) {
-           if(dn->SEMAGESTAC < 39){
+           if(dn->SEMAGESTAC < 37){
             contPrem16++;
             }
         } else if (ano == 2017) {
@@ -99,11 +99,11 @@ void processa2(struct DadosNascimento* dn){
             contPrem17++;
             }
         } else if (ano == 2018){
-            if(dn->SEMAGESTAC < 39){
+            if(dn->SEMAGESTAC < 37){
             contPrem18++;
             }
         } else if (ano == 2019){
-            if(dn->SEMAGESTAC < 39){
+            if(dn->SEMAGESTAC < 37){
             contPrem19++;
             }
         }
