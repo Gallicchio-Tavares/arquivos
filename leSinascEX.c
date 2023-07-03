@@ -57,10 +57,6 @@ void processa(struct DadosNascimento* dn) {
     }    
 }
 // 2. Indique, por ano, a quantidade de prematuros nascidos na cidade do Rio de Janeiro (330455)
-// admitir que a partir de 39 semanas configura um parto no tempo adequado (9 meses é aprox 39 semanas)
-// CODMUNRES = 330445 
-// bebê prematuro => SEMAGESTAC < 39
-// passar por todo o arquivo e fazer aS verificações acima. se for o caso, incrementamos nosso contador em 1
 int contPrem12 = 0;
 int contPrem13 = 0;
 int contPrem14 = 0;
